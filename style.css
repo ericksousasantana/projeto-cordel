@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+}
+
+header{
+    background-color: black;
+    padding: 60px;
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-family: passion one;
+    font-size: 10vw;
+}
+header a, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline white;
+}
+
+.normal p{
+    font-family: sriracha;
+    color: black;
+    font-size: 4vw;
+    margin: 50px 0px 50px 30px;
+}
+
+.joaninha{
+    background-image: url("imagens/joaninha.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: inset 0px 1px 6px 5px rgba(0, 0, 0, 0.192);
+}
+.joaninha p{
+    font-family: sriracha;
+    display: inline-block;
+    color: white;
+    font-size: 4vw;
+    margin: 50px 0px 50px 30px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.522);
+}
+.folhas{
+    background-image: url("imagens/folhas.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: inset 0px 1px 6px 5px rgba(0, 0, 0, 0.192);
+}
+.folhas p{
+    font-family: sriracha;
+    display: inline-block;
+    color: white;
+    font-size: 4vw;
+    margin: 50px 0px 50px 30px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.522);
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+footer > p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline white;
+}
